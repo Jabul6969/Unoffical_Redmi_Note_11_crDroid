@@ -43,6 +43,11 @@
 
 ---
 
+## 🔧 Installation Guide:
+- Coming Soon!
+
+---
+
 ## Credits:
 -crDroid
 -Lineage OS
