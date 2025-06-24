@@ -43,14 +43,14 @@
 
 ---
 
-## 🔧 Installation Guide:
+## 📲 Installation Guide:
 - Coming Soon!
 
 ---
 
-## Credits:
--crDroid
--Lineage OS
+## 👤 Credits:
+- crDroid
+- Lineage OS
 
 ---
 
