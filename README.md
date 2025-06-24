@@ -1,4 +1,4 @@
-# Unofficial crDroid 11.0 for Redmi Note 11 / 11 NFC (`spes/spesn`)
+# Unofficial crDroid 11.0 for Redmi Note 11 (`spes`)
 
 **Maintainer:** Jingexz01  
 **Status:** Unofficial  
