@@ -6,7 +6,7 @@
 
 ---
 
-## ✅ Device-side changes:
+## 📱 Device-side changes:
 - Initial unofficial crDroid 11.0 build for spes
 - Removed unused and broken WFD/Miracast blobs (`libwfdclient`, `libwfdnative`, `libwfdservice`)
 - Cleaned up proprietary blobs and fixed prebuilt library inconsistencies
