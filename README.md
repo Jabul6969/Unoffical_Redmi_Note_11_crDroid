@@ -44,7 +44,7 @@
 ---
 
 ## 📲 Installation Guide:
-- Coming Soon!
+- [Wiki](https://github.com/Jabul6969/Unoffical_Redmi_Note_11_crDroid/wiki)
 
 ---
 
