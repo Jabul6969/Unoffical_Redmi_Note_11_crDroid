@@ -3,7 +3,7 @@
 **Maintainer:** Jingexz01  
 **Status:** Unofficial  
 **Build Date:** 2025-06-24
-
+**This is an unofficial build. Flash at your own risk. I'm not responsible for bricked devices or lost data.**
 ---
 
 ## ✅ Device-side changes:
@@ -40,3 +40,7 @@
 - Use **crDroid Recovery** (recommended)
 - Format `data` before flashing
 - GApps optional *(NikGApps / MindTheGapps recommended)*
+
+## Credits:
+-crDroid
+-Lineage OS
