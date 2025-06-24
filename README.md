@@ -1,37 +1,42 @@
 # Unofficial crDroid 11.0 for Redmi Note 11 / 11 NFC (`spes`)
 
 **Maintainer:** Jingexz01  
-**Build Date:** `2025-06-24`  
-**Status:** Unofficial
+**Status:** Unofficial  
+**Build Date:** 2025-06-24
 
 ---
 
-### ✅ Device-side changes:
-- Initial crDroid 11.0 build
-- Removed broken WFD blobs
-- Cleaned up unused HALs and blobs
-- Fixed Soong build issues
-- Synced with latest vendor setup
-- Improved prebuilt blob handling
+## ✅ Device-side changes:
+- Initial unofficial crDroid 11.0 build for spes
+- Removed unused and broken WFD/Miracast blobs (`libwfdclient`, `libwfdnative`, `libwfdservice`)
+- Cleaned up proprietary blobs and fixed prebuilt library inconsistencies
+- Resolved Soong build errors (AIDL interfaces, missing arch variants)
+- Adjusted `proprietary-files.txt` and `Android.bp`
+- Fixed missing variants for key prebuilt libraries (`libdsutils`, `libqmi_client_qmux`)
+- Removed unused broken HALs (`mfidoca`, `mlipay`, `mtdservice`)
+- Synced with latest Lineage blobs for vendor setup
 
 ---
 
-### 💡 ROM-side changes:
+## 💡 ROM-side changes (from crDroid 11.0 base):
 - June 2025 security patch
-- Launcher and UI updates
-- Performance & thermal tweaks
-- AppLock and QS improvements
+- Performance and thermal improvements
+- Latest crDroid Launcher updates
+- Fixed UI glitches on QCOM 6xx series
+- Updated AppLock and Smart Charging
+- QS tile layout and power menu tweaks
+- Fixed dark mode tinting in AOSP apps
 
 ---
 
-### ⚠️ Known issues:
-- WFD not supported
-- FM Radio may not work
-- Clean flash required
+## ⚠️ Known Issues:
+- WFD/Miracast is not supported (SD680 limitation)
+- FM Radio may not work on some regional variants
+- Clean flash **recommended**
 
 ---
 
-### 🔧 Installation:
-- Use **crDroid Recovery**
-- Format **data**
-- Flash ROM + (optional) GApps
+## 🔧 Installation Notes:
+- Use **crDroid Recovery** (recommended)
+- Format `data` before flashing
+- GApps optional *(NikGApps / MindTheGapps recommended)*
