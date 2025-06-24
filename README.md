@@ -8,24 +8,26 @@
 
 ## 📱 Device-side changes:
 - Initial unofficial crDroid 11.0 build for spes
-- Removed unused and broken WFD/Miracast blobs (`libwfdclient`, `libwfdnative`, `libwfdservice`)
+- Removed unused and broken WFD/Miracast blobs
 - Cleaned up proprietary blobs and fixed prebuilt library inconsistencies
 - Resolved Soong build errors (AIDL interfaces, missing arch variants)
-- Adjusted `proprietary-files.txt` and `Android.bp`
-- Fixed missing variants for key prebuilt libraries (`libdsutils`, `libqmi_client_qmux`)
-- Removed unused broken HALs (`mfidoca`, `mlipay`, `mtdservice`)
+- Fixed missing variants for key prebuilt libraries
+- Removed unused broken HALs
 - Synced with latest Lineage blobs for vendor setup
 
 ---
 
 ## 💡 ROM-side changes (from crDroid 11.0 base):
-- June 2025 security patch
-- Performance and thermal improvements
-- Latest crDroid Launcher updates
-- Fixed UI glitches on QCOM 6xx series
-- Updated AppLock and Smart Charging
-- QS tile layout and power menu tweaks
-- Fixed dark mode tinting in AOSP apps
+- June 2025 Android security patch
+- Thermal and performance optimizations
+- SystemUI: heap memory cleanup on screen off
+- SystemUI Boost Framework introduced
+- ActivityManager: improved compaction logic
+- LineageParts: prevent key disabler restore on boot
+- QS Animator: crash fix and cleanup
+- WallpaperManagerService: crash fix
+- Fixed splash screen and observer callback issues
+- AppLock, Smart Charging, and Launcher3 improvements
 
 ---
 
